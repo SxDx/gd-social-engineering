@@ -8,6 +8,11 @@
   width: 100% !important;
 }
 
+form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 html, body {
    height: 100%;
    font-family:verdana,arial,sans-serif;
