@@ -23,11 +23,12 @@
               <select multiple class="form-control">
                 <option>TV</option>
                 <option>Audio Equipment</option>
-                <option>Game Consoles</option>
                 <option>Car</option>
+                <option>Game Consoles</option>
                 <option>Antiques</option>
                 <option>Artworks</option>
               </select>
+              <p class="help-block hidden error-thing">John does not own a car</p>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Where does John live?</label>
@@ -40,12 +41,15 @@
             <div class="form-group">
               <label for="exampleInputPassword1">What are John's hours of labour?</label>
               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="06:00 - 20:00">
+              <p class="help-block hidden error-time">You got caught because John was already home.</p>
             </div>
+
             <div class="form-group">
               <label for="exampleInputPassword1">When would your break in?</label>
               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="01.01.1970 at 23:00">
+              <p class="help-block hidden error-date">You got caught because the neighbours saw you.</p>
             </div>
-            <button type="submit" class="btn btn-default">Break in</button>
+            <button id="break-in" type="button" class="btn btn-default">Break in</button>
           </form>
           <!--
           <ul>

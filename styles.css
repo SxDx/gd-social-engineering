@@ -13,6 +13,10 @@ form {
   margin-right: 10px;
 }
 
+.help-block {
+  color: red;
+}
+
 html, body {
    height: 100%;
    font-family:verdana,arial,sans-serif;
